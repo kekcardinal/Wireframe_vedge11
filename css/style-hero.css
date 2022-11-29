@@ -1,0 +1,14 @@
+/* PERMET DE METTRE LE HERO DE LA PAGE 100% DE SON CONTENEUR ET 77VH (POUR AFFICHER LA MARGE EN HAUT ET EN BAS) */
+.hero {
+    border-radius: 20px;
+    width: 100%;
+    height: 77vh;
+    object-fit: cover;
+}
+
+/* SETTINGS POUR ENTOURÉ LE LOGO ET LE SLOGAN */
+.hero_logo {
+    padding: 50px;
+    border: 4px solid white;
+    border-radius: 25px;
+}

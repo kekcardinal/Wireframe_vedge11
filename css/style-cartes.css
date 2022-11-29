@@ -1,0 +1,49 @@
+/* BOUTON CONTACTEZ NOUS */
+.carte_bouton {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+/* DEMI BOUTON FUSIONNER AVEC INPUT RESTAURANT PRES DE CHEZ VOUS */
+
+input+.carte_bouton {
+    padding: 4px 20px 4px 15px;
+    /*HEIGHT DE 2EM POUR ETRE EQUIVALENT AU HEIGHT DU INPUT*/
+    height: 2em;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-style: none;
+}
+
+/* PARAMÈTRES DES CARTES */
+.carte {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+/* PADDING TOP ET BOTTOM DES ENFANTS DES CARTES */
+.carte>* {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* PARAMETRES DU INPUT DE TEXTE POUR RESTAURANT PRES DE CHEZ VOUS*/
+.carte input {
+    display: inline-block;
+    /*HEIGHT DE 2EM POUR ETRE EQUIVALENT AU HEIGHT DU INPUT*/
+    height: 2em;
+    padding: 6px 8px;
+    width: 25%;
+    margin-top: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-style: none;
+}
